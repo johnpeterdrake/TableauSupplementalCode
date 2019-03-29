@@ -4,7 +4,7 @@
 
 Before connecting a dataset to Tableau I typically have to clean and process the data to a usable form using R (or Python). The code for each Tableau project is stored in this repo.
 
-My Tableau profile is https://public.tableau.com/profile/jonathan.drake#!
+My Tableau profile is https://public.tableau.com/profile/jonathan.drake
 
 ## Projects
 
