@@ -6,6 +6,11 @@ Before connecting a dataset to Tableau I typically have to clean and process the
 
 Note that each file is prefaced by a capital letter. The letter indicates the order I recommend the files are run in. Later files often require the outputs of earlier files in order to run.
 
+Also please note that in order to save space I don't include any data in this repo. In order to run the files you'll have to download the following files:
+- For the California wine folder you'll need to download the ratings data from the Kaggle link in the California wine section and place it in the '/data/reviews' folder
+- For the Sudoku folder you'll need to download the sudoku file from the Kaggle link in the Sudoku section and place it in the 'data' folder
+- For the Lego colours folder you'll need to download all files from the Kaggle link in the Lego section and place them in the 'data' folder
+
 My Tableau profile is https://public.tableau.com/profile/jonathan.drake
 
 
@@ -33,6 +38,6 @@ I read the sudokus from the csv file into R. I only read in the first 100,000 su
 
 Viz: https://public.tableau.com/profile/jonathan.drake#!/vizhome/lego_viz/ColorBySupertheme
 
-I used R to create a csv file grouping themes together into 'superthemes' so their colour composition could be compared.
+Lego theme, set, inventory, and piece data were downloaded from Kaggle here: https://www.kaggle.com/rtatman/lego-database.
 
-I also used R to create an XML file to define a custom colour palette in Tableau.
+I used R to create a csv file grouping themes together into 'superthemes' so their colour composition could be compared. I also used R to create an XML file to define a custom colour palette in Tableau.
