@@ -4,7 +4,10 @@
 
 Before connecting a dataset to Tableau I typically have to clean and process the data to a usable form using R (or Python). The code for each Tableau project is stored in this repo.
 
+Note that each file is prefaced by a capital letter. The letter indicates the order I recommend the files are run in. Later files often require the outputs of earlier files in order to run.
+
 My Tableau profile is https://public.tableau.com/profile/jonathan.drake
+
 
 ## Projects
 
@@ -33,6 +36,3 @@ Viz: https://public.tableau.com/profile/jonathan.drake#!/vizhome/lego_viz/ColorB
 I used R to create a csv file grouping themes together into 'superthemes' so their colour composition could be compared.
 
 I also used R to create an XML file to define a custom colour palette in Tableau.
-
-
-
